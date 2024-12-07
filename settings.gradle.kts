@@ -15,4 +15,9 @@ dependencyResolutionManagement {
 
 rootProject.name = "BookeSearcher"
 include(":app")
- 
+include(":data")
+include(":core")
+include(":core:data")
+include(":core:domain")
+include(":feature")
+include(":feature:search")
