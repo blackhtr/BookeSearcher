@@ -48,7 +48,7 @@ fun BookSearchScreen(viewModel: BookViewModel = hiltViewModel()) {
         Spacer(modifier = Modifier.height(16.dp))
 
         if (error != null) {
-            Text("Error: ${'$'}error", color = androidx.compose.ui.graphics.Color.Red)
+            Text("Error: ${'$'}error", color = Color.Red)
         }
 
         LazyColumn {
